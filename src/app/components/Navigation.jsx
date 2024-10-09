@@ -1,5 +1,8 @@
 "use client";
 import React, { useState } from "react";
+import { PiChurchDuotone } from "react-icons/pi";
+import { CgCross } from "react-icons/cg";
+
 
 const Navigation = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -14,7 +17,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200">
+    <nav className="bg-white border-gray-200 fixed z-50 w-full">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Flogo-MONTE-HOREB.gif?alt=media&token=3a3d75b7-0ffb-4a18-b9a9-fc35127401fb"
@@ -24,13 +27,13 @@ const Navigation = () => {
         <button
           data-collapse-toggle="navbar-multi-level"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-1 w-10 h-10 justify-center text-[#a09a6a] hover:text-[#fff] hover:bg-[#a09a6a] rounded-lg md:hidden "
           aria-controls="navbar-multi-level"
           aria-expanded={isMobileMenuOpen}
           onClick={toggleMobileMenu}
         >
           <span className="sr-only">Open main menu</span>
-          <svg
+          {/* <svg
             className="w-5 h-5"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +47,10 @@ const Navigation = () => {
               strokeWidth="2"
               d="M1 1h15M1 7h15M1 13h15"
             />
-          </svg>
+          </svg> */}
+          {!isMobileMenuOpen 
+          ? (<PiChurchDuotone className="h-8 w-8  " />) 
+          : (<CgCross className="h-8 w-8 rotate-[15deg]" />)}
         </button>
         <div
           className={`${
@@ -52,7 +58,7 @@ const Navigation = () => {
           } w-full md:block md:w-auto`}
           id="navbar-multi-level"
         >
-          <ul className="flex flex-col text-[#a09a6a] font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+          <ul className="py-8 flex flex-col text-[#a09a6a] font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
             <li className="relative font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
               <p>Inicio</p>
             </li>
@@ -62,7 +68,7 @@ const Navigation = () => {
               <button
                 id="dropdownNavbarLink"
                 onClick={toggleDropdown}
-                className="flex items-center justify-between w-full py-2 px-3 md:border-0  md:p-0 md:w-auto "
+                className="flex items-center justify-between w-full  md:border-0  md:p-0 md:w-auto "
               >
                 Ministerios
                 <svg
