@@ -4,9 +4,9 @@ const Title = () => {
   return (
     <div  className="p-[1.5rem]">
 
-           <h1 className="uppercase text-3xl font-bold text-center text-[#a09a6a] ">
+           <h3 className="uppercase text-2xl font-bold text-center text-[#a09a6a] ">
          Nuestra ubicación
-        </h1>
+        </h3>
     </div>
   )
 }
