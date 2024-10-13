@@ -7,10 +7,10 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
-      <Navigation />
+   
       <HeroSection />
       <Map/>
-      <Footer/>
+    
     </>
   
   );

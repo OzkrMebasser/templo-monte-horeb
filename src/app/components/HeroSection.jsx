@@ -15,7 +15,7 @@ const HeroSection = () => {
     >
       <div className="absolute top-0 right-0 bottom-0 left-0 bg-[#6e55467c] opacity-75"></div>
 
-      <main className="px-4 sm:px-6 lg:px-8 z-10">
+      <main className="px-4 sm:px-6 lg:px-8 z-10 mt-20 py-8">
         <div className="text-center">
           <h2 className=" text-shadows uppercase font-bold text-4xl tracking-tight leading-10  sm:text-5xl text-white sm:leading-none md:text-6xl">
             <span className="text-[2rem] text-[#a09a6a] font-bold">Templo <br className="" /></span>{" "}
