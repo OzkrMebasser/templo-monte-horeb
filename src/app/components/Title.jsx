@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Title = ({color, title, marginTop}) => {
+const Title = ({color, title, }) => {
   return (
-    <div  className={`${marginTop} p-[1.5rem]}`}>
+    <div  className={`p-[1.5rem]}`}>
 
-           <h3 className={`uppercase text-2xl font-bold text-center text-[#a09a6a] `}>
+           <h3 className={`titles uppercase text-3xl font-bold text-center   `}>
      {    title}
         </h3>
     </div>

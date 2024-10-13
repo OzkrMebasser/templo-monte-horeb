@@ -74,15 +74,19 @@ const MinistryCard = ({ name, description }) => (
 
 const MinistriesList = () => (
     <>
-    <Title title={"Ministerios"} />
-  <div className="min-h-screen bg-white flex justify-center items-center py-20">
+    <div className=" pt-[8rem] bg-white">
+    <Title title={"Ministerios"}/>
    
-    <div className="mt-24 md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
-    
+      
+  <div className="min-h-screen bg-transparent flex justify-center items-center py-[3rem]">
+   
+    <div className=" md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+
       {ministries.map((ministry) => (
         <MinistryCard key={ministry.name} name={ministry.name} description={ministry.description} />
       ))}
     </div>
+  </div>
   </div>
   </>
 );

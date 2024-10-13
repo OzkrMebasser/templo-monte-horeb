@@ -65,3 +65,16 @@ body {
   background-size: 100% 3px;
   background-position: 0 100%
 }
+
+.titles{
+font-family:monospace ;
+letter-spacing: .5px;
+    /* font-size: 4rem;
+    font-family: serif;
+    text-align: center; */
+    color: #03d111;
+    
+    /* Text Shadow Property */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #006907;
+  }
