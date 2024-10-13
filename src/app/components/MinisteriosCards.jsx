@@ -1,5 +1,6 @@
 "use client"
 import React from "react";
+import Title from "./Title";
 
 const ministries = [
   {
@@ -57,7 +58,7 @@ const ministries = [
 ];
 
 const MinistryCard = ({ name, description }) => (
-  <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+  <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-2xl transform hover:scale-105 transition duration-500">
     <h3 className="mb-3 text-xl font-bold text-indigo-600">{name}</h3>
     <div className="relative">
       <img
@@ -67,18 +68,23 @@ const MinistryCard = ({ name, description }) => (
       />
     </div>
     <p className="mt-4 text-gray-800">{description}</p>
-    <button className="mt-4 text-xl w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">Learn More</button>
+    <button className="mt-4 mb-4 text-xl w-full text-white bg-indigo-600 py-2 rounded-xl shadow-lg">Conocer mas</button>
   </div>
 );
 
 const MinistriesList = () => (
-  <div className="min-h-screen bg-gradient-to-tr from-red-300 to-yellow-200 flex justify-center items-center py-20">
-    <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+    <>
+    <Title title={"Ministerios"} />
+  <div className="min-h-screen bg-white flex justify-center items-center py-20">
+   
+    <div className="mt-24 md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+    
       {ministries.map((ministry) => (
         <MinistryCard key={ministry.name} name={ministry.name} description={ministry.description} />
       ))}
     </div>
   </div>
+  </>
 );
 
 export default MinistriesList;
