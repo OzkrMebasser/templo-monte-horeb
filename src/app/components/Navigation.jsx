@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Link from 'next/link'
 import { PiChurchDuotone } from "react-icons/pi";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { CgCross } from "react-icons/cg";
@@ -56,11 +57,14 @@ const Navigation = () => {
           <ul className="uppercase py-6 flex flex-col text-[#a09a6a] font-medium  md:p-0 mt-4  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
             {/* Inicio */}
             <li className="relative py-8 lg:py-0 font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
-              <p>Inicio</p>
+         
+              <Link href="/">Inicio</Link>
             </li>
-
+            <li className="relative py-6 lg:py-0 font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
+              <Link href="/ministerios">Ministerios</Link>
+            </li>
             {/* Ministerios Dropdown */}
-            <li className="uppercase py-6 lg:py-0  relative font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
+            {/* <li className="uppercase py-6 lg:py-0  relative font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
               <button
                 id="dropdownNavbarLink"
                 onClick={toggleDropdown}
@@ -186,7 +190,7 @@ const Navigation = () => {
                   </ul>
                 </div>
               )}
-            </li>
+            </li> */}
 
             <li className="relative py-6 lg:py-0 font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
               <p>Servicios</p>
