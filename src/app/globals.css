@@ -19,7 +19,7 @@
 
 body {
   color: var(--foreground);
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fbody-bg-gradient.svg?alt=media&token=146f29ea-b559-4c85-b0ae-9e30fc842647");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fbg-body.svg?alt=media&token=50ef0fc5-9a00-449a-b45d-c650d1f2c6f0");
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -66,15 +66,26 @@ body {
   background-position: 0 100%
 }
 
-.titles{
-font-family:monospace ;
-letter-spacing: .5px;
-    /* font-size: 4rem;
-    font-family: serif;
-    text-align: center; */
-    color: #03d111;
-    
-    /* Text Shadow Property */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #006907;
+
+
+  .titles{
+    /* color: #a09a6a; */
+    opacity: 0.8;
+    line-height: 1;
+    padding: 0;
+    text-shadow: -1px -1px 1px transparent, 1px 1px 1px #000;
+  }
+
+  .border-black{
+    /*border white with light shadow*/
+    text-shadow: 
+       1px   0  0   #000, 
+      -1px   0  0   #000, 
+       0    1px 0   #000, 
+       0   -1px 0   #000, 
+       1px  1px 0   #000, 
+      -1px -1px 0   #000, 
+       1px -1px 0   #000, 
+      -1px  1px 0   #000,
+       1px  1px 5px #000;
   }
