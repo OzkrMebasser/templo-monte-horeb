@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Title from "./Title";
+import Link from "next/link";
 
 const ministries = [
   {
@@ -8,8 +9,10 @@ const ministries = [
     description:
       "Un ministerio enfocado en el fortalecimiento espiritual y liderazgo de los hombres en la iglesia.",
     img:
-      "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fluz.jpeg?alt=media&token=5d3c8e84-a52b-4414-8445-3ec96b901587",
-  },
+      "https://images.pexels.com/photos/2351722/pexels-photo-2351722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pageLink: "/hombres-esforzados"
+  
+    },
   {
     name: "Jóvenes",
     description:
@@ -67,7 +70,7 @@ const ministries = [
     description:
       "Expresamos nuestra adoración a Dios a través de las artes, incluyendo música, danza y teatro.",
       img:
-      "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2FDEEMAD.jpeg?alt=media&token=a7412210-c550-4cc3-956d-e898845695a4",
+      "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2FDEEMAD.jpeg?alt=media&token=58adb3f5-31c3-469f-9594-38c041475424",
   },
   {
     name: "Educación cristiana ",
@@ -102,16 +105,16 @@ const ministries = [
   },
 ];
 
-const MinistryCard = ({ name, description, subTitle, img }) => (
+const MinistryCard = ({ name, description, subTitle, img, pageLink }) => (
   <div className="border-[1px] text-[#a09a6a] hover:text-black bg-white border-[#a09a6a50] hover:border-[#a09a6a] max-w-sm px-6 pt-6 pb-4 rounded-xl shadow-xl transform hover:scale-105 transition duration-500">
     <div className="h-[4rem]">
       {" "}
       <h3 className=" text-xl font-bold   uppercase titles">{name}</h3>
       <p className=" text-[#a09a6a] tracking-tighter ">{subTitle}</p>
     </div>
-    <div className="relative overflow-hidden rounded-xl h-[250px] ">
+    <div className="relative overflow-hidden rounded-xl h-[220px] ">
       <img
-        className="object-contain w-full opacity-60 rounded-xl hover:scale-125 hover:duration-700 ease-in-out hover:-rotate-6 hover:opacity-100  "
+        className="object-contain w-full opacity-60 rounded-xl hover:scale-[1.2] hover:duration-700 ease-in-out hover:opacity-100  "
         src={img}
         alt={name}
       />
@@ -128,9 +131,11 @@ const MinistryCard = ({ name, description, subTitle, img }) => (
     >
       <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
       <div className="flex items-center">
+        <Link href={pageLink}> 
         <span className="ml-1 titles text-[#ffffff] text-[1rem] uppercase font-semibold">
           Saber más
         </span>
+        </Link>
       </div>
       <div className="ml-2 flex items-center gap-1 text-sm md:flex"></div>
     </button>
@@ -151,6 +156,7 @@ const MinistriesList = () => (
               description={ministry.description}
               subTitle={ministry.subTitle}
               img={ministry.img}
+              pageLink={`/ministerios/${ministry.pageLink}`} // Replace with actual pageLink when routing is implemented in the app. For now, we're using a dummy link. For real-world applications, you should replace the pageLink with the actual route of the ministry page. For example, '/ministro/capellania' for the Capellanía ministry. For the dummy link, we are using the ministry name as the
             />
           ))}
         </div>

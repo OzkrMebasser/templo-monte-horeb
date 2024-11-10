@@ -1,0 +1,45 @@
+.swiper-button-prev {
+    color: white !important;
+    animation: moveLeftRight 2s infinite;
+  }
+  
+  .swiper-button-next {
+    color: white !important;
+    animation: moveLeftRight 2s infinite;
+  }
+  
+  @keyframes moveLeftRight {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+  
+  .swiper {
+    padding: 0 !important;
+  }
+  
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto !important;
+  }
+  
+  @media screen and (max-width: 640px)  {
+    .swiper-slide {
+     
+      height: 24rem  !important;
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+    }
+    
+  }
+  
