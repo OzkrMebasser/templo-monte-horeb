@@ -20,11 +20,14 @@ const AboutPastors = () => {
         img="https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fnuestros-pastores.png?alt=media&token=2c403d2a-6793-40b7-80c9-126f0b51da81"
         // subTitleTop="Luke 18:16, Let the little children come to me..."
         // subTitleTopTextColor="text-teal-200"
-        desc={`    
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusantium error sit possimus laboriosam. Inventore veritatis minima necessitatibus alias nobis architecto dolore quo dignissimos! Incidunt nam soluta delectus dolorem possimus.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusantium error sit possimus laboriosam. Inventore veritatis minima necessitatibus alias nobis architecto dolore quo dignissimos! Incidunt nam soluta delectus dolorem possimus.
-
-          `}
+        desc={`El Rv. Samuel Peña Cruz y su esposa, la Lic. Neisi Rodríguez González, 
+          llegaron a la congregación el 18 de noviembre de 2016 junto a sus hijos, 
+          María Ester y Juan Marcos. Desde su llegada, han liderado con dedicación el 
+          crecimiento espiritual y numérico de la iglesia, enfrentando desafíos como 
+          la falta de un templo propio. Bajo su liderazgo, la congregación ha experimentado
+           grandes bendiciones, incluyendo sanidades, milagros y el fortalecimiento de la
+            comunidad de fe. Su compromiso continúa impulsando la visión de construir un 
+            templo para la gloria de Dios.`}
         // subTitle="Reuniones: "
         // subTitle2="Jueves 7:00 PM"
       />
