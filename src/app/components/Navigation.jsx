@@ -199,7 +199,9 @@ const Navigation = () => {
               <p>Contacto</p>
             </li>
             <li className="relative py-6 lg:py-0  font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
-              <p>Nosotros</p>
+            
+              <Link href="/quienes-somos">Nosotros</Link>
+
             </li>
           </ul>
         </div>
