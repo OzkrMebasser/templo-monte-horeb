@@ -8,7 +8,7 @@ const childrenImages = [
   "https://images.pexels.com/photos/3101645/pexels-photo-3101645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 ];
 
-const Ministries = ({ ministerio }) => {
+const MinisterioSolo = ({ ministerio }) => {
   return (
     <>
       {/* Header section Ministerio*/}
@@ -51,4 +51,4 @@ const Ministries = ({ ministerio }) => {
   );
 };
 
-export default Ministries;
+export default MinisterioSolo;
