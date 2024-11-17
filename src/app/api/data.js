@@ -14,7 +14,7 @@ export const ministries = [
       description:
         "Motivamos a los jóvenes a seguir a Cristo y desarrollar su fe a través de actividades y estudios bíblicos.",
         img:
-        "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fluz.jpeg?alt=media&token=5d3c8e84-a52b-4414-8445-3ec96b901587",
+        "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fjovenes%2Fjovenes.jpg?alt=media&token=cbb7eff4-a6e3-4a6c-b1e9-68aa00ce5d96",
     },
     {
       name: "Castillo del rey ",

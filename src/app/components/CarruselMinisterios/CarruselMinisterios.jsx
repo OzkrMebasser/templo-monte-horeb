@@ -77,11 +77,11 @@ function CarruselMinisterios() {
               <div className="p-4 text-left absolute top-[1rem] z-50">
                 <Titles2 title={ministry.name} />
                 {ministry.subTitle && (
-                  <div className="subtitle text-lg font-semibold mt-2">
+                  <div className="titles2 subtitle text-lg font-semibold mt-2">
                     {ministry.subTitle}
                   </div>
                 )}
-                <p className="text-sm mt-2">{ministry.description}</p>
+                <p className="text-sm mt-2 titles2">{ministry.description}</p>
               </div>
             </SwiperSlide>
           ))}

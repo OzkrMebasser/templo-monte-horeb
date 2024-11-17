@@ -36,9 +36,9 @@ const DescriptionImage = ({
 }) => {
   return (
     <section className={bgSection} id={id}>
-      <div className="container lg:h-[32rem] px-5 flex flex-col py-6 mx-auto lg:py-16 lg:flex-row lg:items-center">
+      <div className=" lg:h-[32rem] px-8 lg:px-16 flex flex-col py-6 mx-auto lg:py-16 lg:flex-row lg:items-center">
         {/* Text on the left side */}
-        <div className="h-full lg:w-1/2 order-1 lg:order-2 lg:mr-[40px] mb-6 lg:mb-0">
+        <div className="h-full lg:w-1/2 pr-8 pt-6 order-1 lg:order-2  lg:text-left mb-6 lg:mb-0 ">
           <h2
             data-aos="fade-down"
             data-aos-delay="100"

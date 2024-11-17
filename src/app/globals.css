@@ -76,6 +76,12 @@ body {
     text-shadow: -1px -1px 1px transparent, 1px 1px 1px #000;
   }
 
+  .titles2{
+    /* color: #a09a6a; */
+    line-height: 1;
+    padding: 0;
+    text-shadow: -1px -1px 1px transparent, 1px 1px 1px #000;
+  }
   .border-black{
     /*border white with light shadow*/
     text-shadow: 

@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Link from 'next/link'
+import Link from "next/link";
 import { PiChurchDuotone } from "react-icons/pi";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { CgCross } from "react-icons/cg";
@@ -18,7 +18,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-[#fff]  fixed z-50 w-full uppercase [box-shadow:_0_1px_3px_rgb(0_0_0_/_30%)]" >
+    <nav className="bg-[#fff]  fixed z-50 w-full uppercase [box-shadow:_0_1px_3px_rgb(0_0_0_/_30%)]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <img
           src="https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Flogo-MONTE-HOREB.gif?alt=media&token=3a3d75b7-0ffb-4a18-b9a9-fc35127401fb"
@@ -28,14 +28,13 @@ const Navigation = () => {
         <button
           data-collapse-toggle="navbar-multi-level"
           type="button"
-          className={
-            `${!isMobileMenuOpen 
-            ? "text-[#a09a6a] hover:text-[#fff] hover:bg-[#a09a6a]"
-            : "text-[#a09a6a] border-2 border-[#a09a6a]"} 
+          className={`${
+            !isMobileMenuOpen
+              ? "text-[#a09a6a] hover:text-[#fff] hover:bg-[#a09a6a]"
+              : "text-[#a09a6a] border-2 border-[#a09a6a]"
+          } 
             inline-flex items-center p-1 w-10 h-10 justify-center ]  rounded-lg md:hidden
-            `
-            }
-         
+            `}
           aria-controls="navbar-multi-level"
           aria-expanded={isMobileMenuOpen}
           onClick={toggleMobileMenu}
@@ -57,11 +56,14 @@ const Navigation = () => {
           <ul className="uppercase py-6 flex flex-col text-[#a09a6a] font-medium  md:p-0 mt-4  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
             {/* Inicio */}
             <li className="relative py-8 lg:py-0 font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
-         
-              <Link href="/">Inicio</Link>
+              <Link href="/" onClick={toggleMobileMenu}>
+                Inicio
+              </Link>
             </li>
             <li className="relative py-6 lg:py-0 font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
-              <Link href="/ministerios">Ministerios</Link>
+              <Link href="/ministerios" onClick={toggleMobileMenu}>
+                Ministerios
+              </Link>
             </li>
             {/* Ministerios Dropdown */}
             {/* <li className="uppercase py-6 lg:py-0  relative font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
@@ -199,9 +201,9 @@ const Navigation = () => {
               <p>Contacto</p>
             </li>
             <li className="relative py-6 lg:py-0  font-semibold text-[#a09a6a] hover:text-[#8d8758] cursor-pointer transition-all ease-in-out md:before:transition-[width] md:before:ease-in-out md:before:duration-700 md:before:absolute md:before:bg-[#8d8758] md:before:origin-center md:before:h-[2px] md:before:w-0 md:hover:before:w-[50%] md:before:bottom-0 md:before:left-[50%] md:after:transition-[width] md:after:ease-in-out md:after:duration-700 md:after:absolute md:after:bg-[#8d8758] md:after:origin-center md:after:h-[2px] md:after:w-0 md:hover:after:w-[50%] md:after:bottom-0 md:after:right-[50%]">
-            
-              <Link href="/quienes-somos">Nosotros</Link>
-
+              <Link href="/quienes-somos" onClick={toggleMobileMenu}>
+                Nosotros
+              </Link>
             </li>
           </ul>
         </div>
