@@ -70,7 +70,7 @@ function CarruselMinisterios() {
                 }}
               >
                 {/* Overlay */}
-                <div className="absolute w-full h-full bg-black bg-opacity-30"></div>
+                <div className="absolute w-full h-full bg-black bg-opacity-30 hover:bg-opacity-10 hover:bg-[#d8b452]"></div>
               </div>
 
               {/* Contenido */}

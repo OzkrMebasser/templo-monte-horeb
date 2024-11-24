@@ -56,7 +56,7 @@ const Footer = () => {
       className="w-full   text-[#000000] py-y px-2"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-4 md:gap-4 border-b-2 border-[#000000] py-8">
+      <div className="w-full px-8 lg:px-16  mx-auto grid grid-cols-2 md:grid-cols-4 md:gap-4 border-b-2 border-[#000000] py-8">
         {sections.map((section, index) => (
           <div
             key={index}

@@ -112,7 +112,7 @@ const MinistryCard = ({ name, description, subTitle, img, pageLink }) => (
       <h3 className=" text-xl font-bold   uppercase titles">{name}</h3>
       <p className=" text-[#a09a6a] tracking-tighter ">{subTitle}</p>
     </div>
-    <div className="relative overflow-hidden rounded-xl h-[220px] ">
+    <div className="relative overflow-hidden rounded-xl max-h-[210px] ">
       <img
         className="object-contain w-full opacity-60 rounded-xl hover:scale-[1.2] hover:duration-700 ease-in-out hover:opacity-100  "
         src={img}
