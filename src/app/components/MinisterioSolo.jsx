@@ -2,13 +2,8 @@
 
 import DescriptionImage from "../components/DescriptionImage";
 
-const childrenImages = [
-  "https://images.pexels.com/photos/2014774/pexels-photo-2014774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/2351722/pexels-photo-2351722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/3101645/pexels-photo-3101645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-];
 
-const MinisterioSolo = ({ ministerio }) => {
+const MinisterioSolo = ({ ministerio, carouselImages }) => {
   return (
     <>
       {/* Header section Ministerio*/}
@@ -27,13 +22,13 @@ const MinisterioSolo = ({ ministerio }) => {
       {/* Children Ministry */}
 
       <DescriptionImage
-        id="children-ministry"
+  
         bgSection="bg-black"
         titleTextColor="text-[#a09a6a]"
         descTextColor="text-white"
         subTitleTextColor="text-[#a09a6a]"
-        // title="Children Ministry"
-        images={childrenImages}
+     
+        images={carouselImages}
         // img="https://firebasestorage.googleapis.com/v0/b/rmcc-entebee.appspot.com/o/heroSection%2FrmccImages%201.jpeg?alt=media&token=4d257150-7491-41c9-b775-fa7ddc951b16"
         // subTitleTop="Luke 18:16, Let the little children come to me..."
         // subTitleTopTextColor="text-teal-200"

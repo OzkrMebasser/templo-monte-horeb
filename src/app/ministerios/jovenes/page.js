@@ -4,7 +4,7 @@ import { ministries } from "../../api/data";
 
 const page = () => {
   // Encuentra el ministerio por nombre
-  const selectedMinistry = ministries.find(ministry => ministry.name === "Hombres esforzados");
+  const selectedMinistry = ministries.find(ministry => ministry.name === "Jóvenes");
 
   // Extrae las imágenes del carrusel y el nombre
   const carouselImages = selectedMinistry?.carouselImages || [];

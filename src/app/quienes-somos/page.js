@@ -1,4 +1,5 @@
 import AboutPastors from "../components/AboutPastors";
+import CarruselNosotros from "../components/Carruseles/CarruselNosotros";
 // import CarruselMinisterios from "../components/CarruselMinisterios/CarruselMinisterios";
 import Title from "../components/Title";
 
@@ -68,6 +69,8 @@ const page = () => {
           </p>
         </div>
       </section>
+
+      <CarruselNosotros/>
 
     </>
   );

@@ -16,15 +16,15 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import Title from "../Title";
 import Titles2 from "../Titles2";
 
-function CarruselMinisterios() {
+function CarruselNosotros() {
   return (
     <>
-      <section className="lg:px-4 ">
-        <Title title="Ministerios" />
+      <section className="lg:px-4 mb-16 ">
+        <Title title="Nuestra Historia" />
         <Swiper
-         style={{
-            '--swiper-navigation-color': '#fff',
-            '--swiper-pagination-color': '#fff',
+          style={{
+            "--swiper-navigation-color": "#fff",
+            "--swiper-pagination-color": "#fff",
           }}
           slidesPerView={3} // Muestra 3 diapositivas por defecto
           spaceBetween={30} // Espaciado entre diapositivas
@@ -73,7 +73,7 @@ function CarruselMinisterios() {
                 <div className="absolute w-full h-full bg-black bg-opacity-30 hover:bg-opacity-10 hover:bg-[#d8b452]"></div>
               </div>
 
-              {/* Contenido */}
+              {/* Contenido
               <div className="p-4 text-left absolute top-[1rem] z-50">
                 <Titles2 title={ministry.name} />
                 {ministry.subTitle && (
@@ -82,7 +82,7 @@ function CarruselMinisterios() {
                   </div>
                 )}
                 <p className="text-sm mt-2 titles2">{ministry.description}</p>
-              </div>
+              </div> */}
             </SwiperSlide>
           ))}
         </Swiper>
@@ -91,4 +91,4 @@ function CarruselMinisterios() {
   );
 }
 
-export default CarruselMinisterios;
+export default CarruselNosotros;

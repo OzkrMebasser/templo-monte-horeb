@@ -44,10 +44,7 @@ export default function MinistriesSlidesImgs({ images = [], img ,title }) {
             alt={`Slide ${index + 1}`}
             className="object-cover w-full h-full lg:h-[24rem] mx-auto rounded-md filter saturate-100"
           />
-          {/* Text overlay
-          <h3 className="absolute inset-0 flex items-center justify-center text-white text-center z-40 bg-black bg-opacity-50 p-4">
-            We can put one or more images of you if you want
-          </h3> */}
+         
         </SwiperSlide>
       ))}
     </Swiper>

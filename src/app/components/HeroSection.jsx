@@ -1,26 +1,28 @@
 "use client";
 import "../globals.css";
+import Image from "next/image";
 
 import React from "react";
 
-const bgImage =
-  "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fegypt-sinai-01.jpg?alt=media&token=90f2178a-1b91-47df-afdd-156bedc081bf";
-  
-const svgOverlay =
-  "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fbg-body-white.svg?alt=media&token=9c16ce0f-787d-45be-a868-28c6b5835680";
+
+// const bgImage =
+//   "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fegypt-sinai-01.jpg?alt=media&token=90f2178a-1b91-47df-afdd-156bedc081bf";
+
+// const svgOverlay =
+//   "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fbg-body-white.svg?alt=media&token=9c16ce0f-787d-45be-a868-28c6b5835680";
 
 const HeroSection = () => {
   return (
     <div
       className="relative h-screen w-full flex items-center justify-center text-center bg-cover bg-center"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      style={{ backgroundImage: `url(${"/assets/egypt-sinai-mountains.png"})` }}
     >
       {/* Overlay semi-transparente */}
       <div className="absolute top-0 right-0 bottom-0 left-0 bg-[#6e55467c] opacity-75 z-0"></div>
 
       {/* SVG Overlay */}
       <img
-        src={svgOverlay}
+        src={"/assets/bg-body-white.svg"}
         alt="SVG Overlay"
         className="absolute top-0 right-0 bottom-0 left-0 w-full h-full object-cover z-10 opacity-90"
       />
@@ -39,9 +41,12 @@ const HeroSection = () => {
           <div className="mt-5 sm:mt-4 flex justify-center mx-auto">
             <img
               className="h-[8rem] w-[8rem] logo-shadow"
-              src="https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2FCNAD_logo.png?alt=media&token=a0d70106-5817-4711-954c-3e2b14207c80"
-              alt="logo"
+              // src="https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2FCNAD_logo.png?alt=media&token=a0d70106-5817-4711-954c-3e2b14207c80"
+             src="../assets/CNAD_logo.png"
+              alt="Logo Asambleas de Dios"
             />
+
+          
           </div>
         </div>
       </main>

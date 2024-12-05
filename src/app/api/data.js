@@ -6,7 +6,12 @@ export const ministries = [
         "Un ministerio enfocado en el fortalecimiento espiritual y liderazgo de los hombres en la iglesia.",
       img:
         "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fhombres-esforzados%2Fhombres-esforzados.jpg?alt=media&token=5ce57624-b314-403d-b6cf-e3c910e4bdb5",
-      pageLink: "/hombres-esforzados"
+      pageLink: "/hombres-esforzados",
+      carouselImages:[
+        "https://images.pexels.com/photos/2014774/pexels-photo-2014774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/2351722/pexels-photo-2351722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3101645/pexels-photo-3101645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      ],
     
       },
     {
@@ -15,7 +20,14 @@ export const ministries = [
         "Motivamos a los jóvenes a seguir a Cristo y desarrollar su fe a través de actividades y estudios bíblicos.",
         img:
         "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fjovenes%2Fjovenes.jpg?alt=media&token=bb8fed41-3b07-4f7a-964b-0e4252c2f375",
-    },
+      pageLink: "/jovenes",
+      carouselImages:[
+
+        "https://images.pexels.com/photos/2351722/pexels-photo-2351722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3101645/pexels-photo-3101645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      ],
+    
+      },
     {
       name: "Castillo del rey ",
       subTitle: "(juveniles)",
@@ -100,3 +112,7 @@ export const ministries = [
         "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
+
+export const nuestrasHistoria = [
+  
+];
