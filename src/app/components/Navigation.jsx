@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <img
           // src="https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fnew-logo-monte-horeb.gif?alt=media&token=49ef84c7-f6a2-49b2-b0bc-25ce4a5f5ac8"
-         src="../assets/new-logo-monte-horeb-cuba.gif"
+         src="/assets/new-logo-monte-horeb-cuba.gif"
           className="h-[3.5rem] lg:h-[5rem] relative"
           alt="Logo Monte Horeb"
         />

@@ -19,7 +19,9 @@
 
 body {
   color: var(--foreground);
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fbg-body.svg?alt=media&token=50ef0fc5-9a00-449a-b45d-c650d1f2c6f0");
+  background-image: url("/assets/bg-body.svg");
+
+  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fbg-body.svg?alt=media&token=50ef0fc5-9a00-449a-b45d-c650d1f2c6f0"); */
   font-family: Arial, Helvetica, sans-serif;
 }
 

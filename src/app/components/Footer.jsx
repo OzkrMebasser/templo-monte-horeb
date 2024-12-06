@@ -2,8 +2,8 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
-const bgImage =
-  "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Ffooter-BG.svg?alt=media&token=a896c5ba-5e53-4af9-9bb7-557d09e6f15d";
+// const bgImage =
+//   "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Ffooter-BG.svg?alt=media&token=a896c5ba-5e53-4af9-9bb7-557d09e6f15d";
 
 const sections = [
   {
@@ -54,7 +54,7 @@ const Footer = () => {
   return (
     <div
       className="w-full   text-[#000000] py-y px-2"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      style={{ backgroundImage: `url("/assets/footer-BG.svg")` }}
     >
       <div className="w-full px-8 lg:px-16  mx-auto grid grid-cols-2 md:grid-cols-4 md:gap-4 border-b-2 border-[#000000] py-8">
         {sections.map((section, index) => (

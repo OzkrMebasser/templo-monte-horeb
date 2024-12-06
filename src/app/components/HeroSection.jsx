@@ -1,6 +1,5 @@
 "use client";
 import "../globals.css";
-import Image from "next/image";
 
 import React from "react";
 
@@ -42,7 +41,7 @@ const HeroSection = () => {
             <img
               className="h-[8rem] w-[8rem] logo-shadow"
               // src="https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2FCNAD_logo.png?alt=media&token=a0d70106-5817-4711-954c-3e2b14207c80"
-             src="../assets/CNAD_logo.png"
+             src="/assets/CNAD_logo.png"
               alt="Logo Asambleas de Dios"
             />
 

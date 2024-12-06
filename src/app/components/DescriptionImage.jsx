@@ -36,9 +36,9 @@ const DescriptionImage = ({
 }) => {
   return (
     <section className={bgSection} id={id}>
-      <div className=" lg:h-[32rem] px-8 lg:px-16 flex flex-col py-6 mx-auto lg:py-16 lg:flex-row lg:items-center">
+      <div className=" lg:h-[32rem] px-4 lg:px-16 flex flex-col py-6 mx-auto lg:py-16 lg:flex-row lg:items-center">
         {/* Text on the left side */}
-        <div className="h-full lg:w-1/2 pr-8 pt-6 order-1 lg:order-2  lg:text-left mb-6 lg:mb-0 ">
+        <div className="h-full lg:w-1/2 lg:pr-8 lg:pt-4 order-1 lg:order-2  lg:text-left mb-6 lg:mb-0 ">
           <h2
             data-aos="fade-down"
             data-aos-delay="100"
@@ -46,7 +46,7 @@ const DescriptionImage = ({
           >
             {title}
           </h2>
-          <div className="mt-4 bg-transparent py-8"  data-aos="fade-up" data-aos-delay="100">
+          <div className="lg:mt-4 bg-transparent lg:py-8"  data-aos="fade-up" data-aos-delay="100">
             {/* Display top subtitle if provided */}
             {subTitleTop && (
               <p className={`${subTitleTopTextColor} mb-1 italic text-lg font-semibold`}>
@@ -66,14 +66,14 @@ const DescriptionImage = ({
                     <span>{subTitle2}</span>
                   </>
                 )}
-                {servicesDays && (
+                {/* {servicesDays && (
                   <>
                     <br />
                     <span className="text-lg font-bold">
                       <strong>{servicesDays}</strong>
                     </span>
                   </>
-                )}
+                )} */}
               </p>
             )}
             <p className={subTitleTextColor}>{dayAndTime}</p>
