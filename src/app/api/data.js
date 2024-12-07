@@ -56,7 +56,7 @@ export const ministries = [
      y acogedor donde los niños puedan desarrollar su relación con Cristo, explorar su fe y aprender
      a aplicar los valores bíblicos en su vida diaria. Además, promovemos el compañerismo, la obediencia
      y el respeto, equipándolos para crecer como futuros líderes en el cuerpo de Cristo y en sus comunidades.`,
-    img: "/assets/castillo-del-rey.jpeg",
+    img: "/assets/castillo-del-rey.webp",
     pageLink: "/castillo-del-rey",
     carouselImages: [
       "/assets/castillo-del-rey/castillo-del-rey.webp",
