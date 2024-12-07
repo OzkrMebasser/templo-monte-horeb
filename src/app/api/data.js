@@ -1,4 +1,5 @@
 export const ministries = [
+  // "Hombres esforzados"
   {
     name: "Hombres esforzados",
     description:
@@ -10,46 +11,62 @@ export const ministries = [
              en todos los aspectos de su vida. Nuestro objetivo es empoderar a los hombres para que sean 
              líderes en sus hogares, comunidades y en el cuerpo de Cristo, promoviendo un ambiente de apoyo
               y crecimiento en el que se fomente la fe y el compañerismo genuino.`,
-    // img:
-    //   "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fhombres-esforzados%2Fhombres-esforzados.jpg?alt=media&token=5ce57624-b314-403d-b6cf-e3c910e4bdb5",
-    img: "/assets/hombres-esforzados.jpg",
+    img: "/assets/hombres-esforzados/hombres-esforzados.webp",
     pageLink: "/hombres-esforzados",
     carouselImages: [
-      "/assets/hombres-esforzados.jpg",
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/assets/hombres-esforzados/hombres-esforzados.webp",
+      "/assets/hombres-esforzados/hombres-esforzados-2.webp",
+      "/assets/hombres-esforzados/hombres-esforzados-3.webp",
+      "/assets/hombres-esforzados/hombres-esforzados-4.webp",
+      "/assets/hombres-esforzados/hombres-esforzados-5.webp",
+      "/assets/hombres-esforzados/hombres-esforzados-6.webp",
     ],
   },
+  // "Jóvenes"
   {
     name: "Jóvenes",
     description:
       "Motivamos a los jóvenes a seguir a Cristo y desarrollar su fe a través de actividades y estudios bíblicos.",
-    descAmplia: `Hombres Esforzados es un ministerio comprometido en fortalecer el crecimiento espiritual y 
-    el desarrollo de liderazgo de los hombres en la iglesia, proporcionando espacios de aprendizaje y comunión. 
-    A través de estudios bíblicos, actividades de mentoría y encuentros de oración, buscamos inspirar a cada hombre 
-    a vivir de acuerdo con los principios cristianos en todos los aspectos de su vida. Nuestro objetivo es empoderar
-     a los hombres para que sean líderes en sus hogares, comunidades y en el cuerpo de Cristo, promoviendo un ambiente
-      de apoyo y crecimiento en el que se fomente la fe y el compañerismo genuino.`,
-    // img:
-    // "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fjovenes%2Fjovenes.jpg?alt=media&token=bb8fed41-3b07-4f7a-964b-0e4252c2f375",
-    img: "/assets/jovenes.jpg",
+    descAmplia: `El ministerio de Jóvenes es un espacio diseñado para inspirar y equipar a las nuevas generaciones
+       a seguir a Cristo con pasión y compromiso. A través de estudios bíblicos, actividades dinámicas y encuentros 
+       de compañerismo, buscamos fortalecer su fe, promover valores cristianos y fomentar relaciones significativas. 
+       Nuestro enfoque es guiar a los jóvenes a descubrir su propósito en Dios, desarrollar su carácter y vivir una 
+       vida que impacte positivamente a su entorno. Además, ofrecemos oportunidades para el servicio, el liderazgo 
+       y el crecimiento personal, creando un ambiente donde puedan explorar y cultivar su fe mientras disfrutan de una comunidad vibrante y acogedora.`,
+    img: "/assets/jovenes/jovenes.webp",
     pageLink: "/jovenes",
     carouselImages: [
-      "/assets/jovenes.jpg",
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "/assets/jovenes/jovenes.webp",
+      "/assets/jovenes/jovenes-2.webp",
+      "/assets/jovenes/jovenes-3.webp",
+      "/assets/jovenes/jovenes-4.webp",
+      "/assets/jovenes/jovenes-5.webp",
+      "/assets/jovenes/jovenes-6.webp",
     ],
   },
   {
-    name: "Castillo del rey ",
+    name: "Castillo del rey",
     subTitle: "(juveniles)",
     description:
       "Enseñamos a los niños a conocer a Jesús mediante juegos y lecciones bíblicas interactivas.",
-    // img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fcastillo-del-rey%2Fcastillo-del-rey.jpeg?alt=media&token=44f7dd4a-1f9c-4fa0-a2fc-95f57b8a6b06",
+    descAmplia: `Castillo del Rey es un ministerio dedicado a guiar a los niños en su caminar con Jesús,
+     ayudándolos a conocer y amar a Dios desde una edad temprana. A través de juegos, lecciones bíblicas
+     interactivas y actividades creativas, buscamos enseñarles los principios fundamentales de la fe
+     cristiana de una manera divertida y significativa. Nuestro objetivo es crear un entorno seguro 
+     y acogedor donde los niños puedan desarrollar su relación con Cristo, explorar su fe y aprender
+     a aplicar los valores bíblicos en su vida diaria. Además, promovemos el compañerismo, la obediencia
+     y el respeto, equipándolos para crecer como futuros líderes en el cuerpo de Cristo y en sus comunidades.`,
     img: "/assets/castillo-del-rey.jpeg",
+    pageLink: "/castillo-del-rey",
+    carouselImages: [
+      "/assets/castillo-del-rey/castillo-del-rey.webp",
+      "/assets/castillo-del-rey/castillo-del-rey-2.webp",
+      "/assets/castillo-del-rey/castillo-del-rey-3.webp",
+      "/assets/castillo-del-rey/castillo-del-rey-4.webp",
+      "/assets/castillo-del-rey/castillo-del-rey-5.webp",
+      "/assets/castillo-del-rey/castillo-del-rey-6.webp",
+      
+    ],
   },
   {
     name: "Femeniles",
@@ -99,6 +116,10 @@ export const ministries = [
       "Formamos familias sólidas en Cristo a través de la enseñanza bíblica, el discipulado y una vida centrada en los valores cristianos.",
     // img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fdeemad%2Fdeemad-ministerio.jpeg?alt=media&token=3ebe2b93-4cd3-40bd-a1aa-7d0c19f97162",
     img: "/assets/ceffa.jpg",
+    descAmplia: `En el Centro Evangélico de Formación Familiar (CEFFA), fortalecemos nuestra fe y amor
+     por Dios mediante la enseñanza bíblica, el discipulado y la formación integral de familias, 
+     fomentando una vida centrada en Cristo. A través de nuestra comunidad, promovemos valores cristianos
+      que impactan vidas y edifican hogares sólidos en la palabra de Dios.`,
   },
   {
     name: "Educación cristiana ",
