@@ -1,13 +1,28 @@
 "use client";
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
+import { ministries } from "../api/data";
 
 // const bgImage =
 //   "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Ffooter-BG.svg?alt=media&token=a896c5ba-5e53-4af9-9bb7-557d09e6f15d";
 
 const sections = [
+  
   {
     title: "Ministerios",
+    items: [
+      "Deborah (madres en clamor)",
+      "Demaad (música, danza y actuación)",
+      "Ceffa (Centro Evangélico de Formación Familiar)",
+      "Educación cristiana (escuela dominical)",
+      "Vida joven (alcanzando un joven más)",
+      "Llevando luz (ayuda a los débiles visuales)",
+      "Oración y guerra espiritual",
+    ],
+  },
+  {
+    title: "+ Ministerios",
     items: [
       "Hombres esforzados",
       "Jóvenes",
@@ -16,17 +31,6 @@ const sections = [
       "Evangelismo",
       "Misionero",
       "Capellanía",
-    ],
-  },
-  {
-    title: "+ Ministerios",
-    items: [
-      "Deborah (madres en clamor)",
-      "Demaad (música, danza y actuación)",
-      "Educación cristiana (escuela dominical)",
-      "Vida joven (alcanzando un joven más)",
-      "Llevando luz (ayuda a los débiles visuales)",
-      "Oración y guerra espiritual",
     ],
   },
 

@@ -4,12 +4,6 @@ import "../globals.css";
 import React from "react";
 
 
-// const bgImage =
-//   "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fegypt-sinai-01.jpg?alt=media&token=90f2178a-1b91-47df-afdd-156bedc081bf";
-
-// const svgOverlay =
-//   "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fbg-body-white.svg?alt=media&token=9c16ce0f-787d-45be-a868-28c6b5835680";
-
 const HeroSection = () => {
   return (
     <div

@@ -81,18 +81,21 @@ export const ministries = [
     description:
       "Llevamos el mensaje del evangelio a las personas en nuestra comunidad y más allá.",
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pageLink: "/evangelismo",
   },
   {
     name: "Misionero",
     description:
       "Apoyamos y participamos en misiones locales e internacionales para expandir el reino de Dios.",
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pageLink: "/misionero",
   },
   {
     name: "Capellanía",
     description:
       "Brindamos apoyo espiritual y emocional a quienes lo necesitan, tanto dentro como fuera de la iglesia.",
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pageLink: "/capellania",
   },
   {
     name: "Deborah ",
@@ -100,6 +103,7 @@ export const ministries = [
     description:
       "Ministerio de intercesión dedicado a madres que oran por sus hijos y familias.",
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pageLink: "/deborah",
   },
   {
     name: "Demaad",
@@ -108,6 +112,7 @@ export const ministries = [
       "Expresamos nuestra adoración a Dios a través de las artes, incluyendo música, danza y teatro.",
     // img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fdeemad%2Fdeemad-ministerio.jpeg?alt=media&token=3ebe2b93-4cd3-40bd-a1aa-7d0c19f97162",
     img: "/assets/deemad-ministerio.jpeg",
+    pageLink: "/deemaad",
   },
   {
     name: "CEFFA",
@@ -116,6 +121,7 @@ export const ministries = [
       "Formamos familias sólidas en Cristo a través de la enseñanza bíblica, el discipulado y una vida centrada en los valores cristianos.",
     // img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fdeemad%2Fdeemad-ministerio.jpeg?alt=media&token=3ebe2b93-4cd3-40bd-a1aa-7d0c19f97162",
     img: "/assets/ceffa.jpg",
+    pageLink: "/ceffa",
     descAmplia: `En el Centro Evangélico de Formación Familiar (CEFFA), fortalecemos nuestra fe y amor
      por Dios mediante la enseñanza bíblica, el discipulado y la formación integral de familias, 
      fomentando una vida centrada en Cristo. A través de nuestra comunidad, promovemos valores cristianos
@@ -127,6 +133,7 @@ export const ministries = [
     description:
       "Enseñamos a todas las edades los principios bíblicos para formar discípulos de Cristo.",
     img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Feducacion-cristiana%2Feducacion-cristiana.jpeg?alt=media&token=eb64eb95-b990-492a-981b-3beff3eff563",
+    pageLink: "/educacion-cristiana",
   },
   {
     name: "Vida joven ",
@@ -134,6 +141,7 @@ export const ministries = [
     description:
       "Trabajamos para alcanzar a la juventud y guiarlos en su relación personal con Cristo.",
     img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fvida-joven%2Fvida-joven.jpeg?alt=media&token=4d4d1ca3-5f2b-41a4-9e6d-48a5d37a1db0",
+    pageLink: "/vida-joven",
   },
   {
     name: "Llevando luz",
@@ -141,12 +149,14 @@ export const ministries = [
     description:
       "Ministerio dedicado a apoyar a las personas con discapacidad visual, proveyendo recursos y amor.",
     img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fluz.jpeg?alt=media&token=5d3c8e84-a52b-4414-8445-3ec96b901587",
+    pageLink: "/llevando-luz",
   },
   {
     name: "Oración y guerra espiritual",
     description:
       "Nos dedicamos a la oración intercesora y al combate espiritual por la iglesia y la comunidad.",
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pageLink: "/oracion-guerra-espiritual",
   },
 ];
 
