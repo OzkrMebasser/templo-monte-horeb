@@ -20,7 +20,7 @@ const page = () => {
         ministerio={<Title title={title} />}
         descAmplia={descAmplia}
         subTitle="Reuniones: "
-        subTitle2="Domingo 7:00 PM"
+        subTitle2="Martes 8:00 PM ( 1 vez al mes )"
       />
     </>
   );
