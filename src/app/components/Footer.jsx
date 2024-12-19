@@ -22,6 +22,7 @@ const Footer = () => {
   const linksGroup1 = ministryPageLink[0].slice(0, 7);
   const linksGroup2 = ministryPageLink[0].slice(7, 14);
 
+
   return (
     <div
       className="w-full text-[#000000] py-10 px-4"

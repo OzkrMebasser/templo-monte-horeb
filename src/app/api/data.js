@@ -85,6 +85,7 @@ export const ministries = [
       "Un espacio donde las mujeres pueden crecer en su fe y apoyarse mutuamente en su caminar con Dios.",
     descAmplia: `Femeniles es un ministerio para mujeres de todas las edades, enfocado en fortalecer su fe, fomentar la comunidad y ofrecer apoyo espiritual y emocional. A través de estudios bíblicos, oración, talleres y eventos, las mujeres descubren su propósito en Dios y desarrollan su identidad en Cristo.
       Promovemos el compañerismo, creando un ambiente donde se pueden construir relaciones profundas y animarse mutuamente en el caminar con el Señor. En Femeniles, valoramos la unidad y el crecimiento personal, equipando a las mujeres para impactar positivamente sus familias y comunidades.`,
+
     img: "/assets/femeniles/femeniles.webp",
     pageLink: "/femeniles",
     carouselImages: [
@@ -99,7 +100,7 @@ export const ministries = [
     name: "Evangelismo",
     description:
       "Llevamos el mensaje del evangelio a las personas en nuestra comunidad y más allá.",
-      descAmplia: `Evangelismo es un ministerio dedicado a llevar el mensaje transformador del Evangelio a nuestra comunidad y más allá. Con pasión y amor, compartimos las buenas nuevas de salvación en Cristo Jesús a través de actividades como visitas, eventos, y programas especiales diseñados para alcanzar a personas de diferentes contextos. 
+    descAmplia: `Evangelismo es un ministerio dedicado a llevar el mensaje transformador del Evangelio a nuestra comunidad y más allá. Con pasión y amor, compartimos las buenas nuevas de salvación en Cristo Jesús a través de actividades como visitas, eventos, y programas especiales diseñados para alcanzar a personas de diferentes contextos. 
       Nuestro propósito es guiar a otros hacia una relación personal con Dios, cumpliendo la Gran Comisión de hacer discípulos. Nos enfocamos en demostrar el amor de Cristo con acciones prácticas, apoyando a quienes están en necesidad y construyendo relaciones significativas que reflejen la gracia de Dios. Creemos que cada encuentro es una oportunidad para sembrar esperanza y vida eterna.`,
     img: "/assets/evangelismo/evangelismo-5.webp",
     pageLink: "/evangelismo",
@@ -109,15 +110,16 @@ export const ministries = [
       "/assets/evangelismo/evangelismo-3.webp",
       "/assets/evangelismo/evangelismo-4.webp",
       "/assets/evangelismo/evangelismo-5.webp",
-       ],
+    ],
   },
+  // "Misionero"
   {
     name: "Misionero",
     description:
       "Apoyamos y participamos en misiones locales e internacionales para expandir el reino de Dios.",
-      descAmplia: `Misiones es un ministerio enfocado en llevar el mensaje del Evangelio más allá de nuestras fronteras físicas y culturales. Cumplimos la Gran Comisión proclamando el amor de Cristo y sirviendo a los necesitados en comunidades locales e internacionales. 
+    descAmplia: `Misiones es un ministerio enfocado en llevar el mensaje del Evangelio más allá de nuestras fronteras físicas y culturales. Cumplimos la Gran Comisión proclamando el amor de Cristo y sirviendo a los necesitados en comunidades locales e internacionales. 
       A través de proyectos humanitarios y evangelización, colaboramos con iglesias y organizaciones para expandir el reino de Dios. Además, buscamos inspirar en los participantes un corazón compasivo y un compromiso más profundo con el llamado de Dios.`,
-    img:  "/assets/misiones/misiones-5.webp",
+    img: "/assets/misiones/misiones-5.webp",
     pageLink: "/misiones",
     carouselImages: [
       "/assets/misiones/misiones-1.webp",
@@ -132,7 +134,7 @@ export const ministries = [
       "/assets/misiones/misiones-10.webp",
       "/assets/misiones/misiones-11.webp",
       "/assets/misiones/misiones-12.webp",
-       ],
+    ],
   },
   {
     name: "Capellanía",
@@ -141,6 +143,7 @@ export const ministries = [
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     pageLink: "/capellania",
   },
+  // "Deborah" WORKING HERE
   {
     name: "Deborah ",
     subTitle: "(madres en clamor)",
@@ -172,26 +175,44 @@ export const ministries = [
       "/assets/deemad/deemad-10.webp",
     ],
   },
+  // "Ceffa"
   {
     name: "Ceffa",
     subTitle: "(Centro Evangélico de Formación Familiar)",
     description:
       "Formamos familias sólidas en Cristo a través de la enseñanza bíblica, el discipulado y una vida centrada en los valores cristianos.",
     // img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fdeemad%2Fdeemad-ministerio.jpeg?alt=media&token=3ebe2b93-4cd3-40bd-a1aa-7d0c19f97162",
-    img: "/assets/ceffa.jpg",
+    img: "/assets/ceffa/ceffa.webp",
     pageLink: "/ceffa",
     descAmplia: `En el Centro Evangélico de Formación Familiar (CEFFA), fortalecemos nuestra fe y amor
      por Dios mediante la enseñanza bíblica, el discipulado y la formación integral de familias, 
      fomentando una vida centrada en Cristo. A través de nuestra comunidad, promovemos valores cristianos
       que impactan vidas y edifican hogares sólidos en la palabra de Dios.`,
+    carouselImages: [
+      "/assets/ceffa/ceffa.webp",
+      "/assets/ceffa/ceffa-2.webp",
+      "/assets/ceffa/ceffa-3.webp",
+    ],
   },
+  //"Educación cristiana"
   {
-    name: "Educación cristiana ",
+    name: "Educación cristiana",
     subTitle: "(escuela dominical)",
     description:
       "Enseñamos a todas las edades los principios bíblicos para formar discípulos de Cristo.",
-    img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Feducacion-cristiana%2Feducacion-cristiana.jpeg?alt=media&token=eb64eb95-b990-492a-981b-3beff3eff563",
-    pageLink: "/educacion-cristiana",
+    descAmplia: `La Educación Cristiana, a través de la escuela dominical, transmite principios bíblicos a personas de todas las edades, guiándolas a un conocimiento más profundo de Dios y una vida como discípulos de Cristo. Con clases adaptadas para cada etapa, promovemos un aprendizaje práctico que forma creyentes con una fe sólida y un corazón dispuesto a servir, mientras fomentamos comunidad y crecimiento espiritual.`,
+
+    img: "/assets/escuela-dominical/escuela-dominical-1.webp",
+    pageLink: "/escuela-dominical",
+    carouselImages: [
+      "/assets/escuela-dominical/escuela-dominical-1.webp",
+      "/assets/escuela-dominical/escuela-dominical-2.webp",
+      "/assets/escuela-dominical/escuela-dominical-3.webp",
+      "/assets/escuela-dominical/escuela-dominical-4.webp",
+      "/assets/escuela-dominical/escuela-dominical-5.webp",
+      "/assets/escuela-dominical/escuela-dominical-6.webp",
+      "/assets/escuela-dominical/escuela-dominical-7.webp",
+    ],
   },
   {
     name: "Vida joven ",
@@ -201,6 +222,7 @@ export const ministries = [
     img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fvida-joven%2Fvida-joven.jpeg?alt=media&token=4d4d1ca3-5f2b-41a4-9e6d-48a5d37a1db0",
     pageLink: "/vida-joven",
   },
+
   {
     name: "Llevando luz",
     subTitle: "(ayuda a los débiles visuales)",

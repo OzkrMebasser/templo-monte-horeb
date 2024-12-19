@@ -4,6 +4,7 @@ import Link from "next/link";
 import { PiChurchDuotone } from "react-icons/pi";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { CgCross } from "react-icons/cg";
+import ScrollProgressBar from "./ScrollProgressBar";
 
 const Navigation = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -211,6 +212,7 @@ const Navigation = () => {
           </ul>
         </div>
       </div>
+      <ScrollProgressBar />
     </nav>
   );
 };
