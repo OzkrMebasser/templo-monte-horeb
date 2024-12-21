@@ -18,10 +18,9 @@ const Footer = () => {
 
   // Dividir los ministerios y enlaces en dos grupos de 7
   const ministriesGroup1 = ministryName[0].slice(0, 7);
-  const ministriesGroup2 = ministryName[0].slice(7, 14);
+  const ministriesGroup2 = ministryName[0].slice(7, 15);
   const linksGroup1 = ministryPageLink[0].slice(0, 7);
-  const linksGroup2 = ministryPageLink[0].slice(7, 14);
-
+  const linksGroup2 = ministryPageLink[0].slice(7, 15);
 
   return (
     <div
@@ -38,7 +37,13 @@ const Footer = () => {
           <ul>
             {ministriesGroup1.map((name, index) => (
               <li key={index} className="py-1">
-                <Link href={`ministerios${linksGroup1[index]}` || "#"}>
+                <Link
+                  href={
+                    linksGroup1[index].startsWith("ministerios")
+                      ? linksGroup1[index]
+                      : `ministerios${linksGroup1[index]}`
+                  }
+                >
                   <span className="text-[#f8f8f8] hover:text-black transition-colors duration-300 [text-shadow:_0_1px_3px_rgb(0_0_0_/_60%)] font-display text-sm leading-tight">
                     {name}
                   </span>
@@ -56,7 +61,13 @@ const Footer = () => {
           <ul>
             {ministriesGroup2.map((name, index) => (
               <li key={index} className="py-1">
-                <Link href={`ministerios${linksGroup2[index]}` || "#"}>
+                <Link
+                  href={
+                    linksGroup2[index].startsWith("ministerios")
+                      ? linksGroup2[index]
+                      : `ministerios${linksGroup2[index]}`
+                  }
+                >
                   <span className="text-[#f8f8f8] hover:text-black transition-colors duration-300 [text-shadow:_0_1px_3px_rgb(0_0_0_/_60%)] font-display text-sm leading-tight">
                     {name}
                   </span>

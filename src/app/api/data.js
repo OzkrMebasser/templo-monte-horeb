@@ -47,11 +47,8 @@ export const ministries = [
     pageLink: "/jovenes",
     carouselImages: [
       "/assets/jovenes/jovenes.webp",
+      "/assets/jovenes/jovenes-1.webp",
       "/assets/jovenes/jovenes-2.webp",
-      "/assets/jovenes/jovenes-3.webp",
-      "/assets/jovenes/jovenes-4.webp",
-      "/assets/jovenes/jovenes-5.webp",
-      "/assets/jovenes/jovenes-6.webp",
     ],
   },
   // "Castillo del rey"
@@ -136,6 +133,7 @@ export const ministries = [
       "/assets/misiones/misiones-12.webp",
     ],
   },
+  // "Capellanía FALTAN FOTOS"
   {
     name: "Capellanía",
     description:
@@ -143,14 +141,19 @@ export const ministries = [
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     pageLink: "/capellania",
   },
-  // "Deborah" WORKING HERE
+  // "Deborah"
   {
-    name: "Deborah ",
+    name: "Deborah",
     subTitle: "(madres en clamor)",
     description:
       "Ministerio de intercesión dedicado a madres que oran por sus hijos y familias.",
-    img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    descAmplia: `Este ministerio está dedicado a las madres que sienten el llamado a interceder en oración por sus hijos, familias y comunidades. A través de encuentros regulares, se fomenta un espíritu de fe y apoyo mutuo, clamando a Dios por sabiduría y dirección divina. Creemos en el poder transformador de la oración para traer paz, restauración y esperanza a las familias.`,
+    img: "/assets/deborah/debora-1.webp",
     pageLink: "/deborah",
+    carouselImages: [
+      "/assets/deborah/debora-1.webp",
+      "/assets/deborah/debora-2.webp",
+    ],
   },
   // "Demaad"
   {
@@ -214,13 +217,23 @@ export const ministries = [
       "/assets/escuela-dominical/escuela-dominical-7.webp",
     ],
   },
+  // "Vida joven"
   {
-    name: "Vida joven ",
+    name: "Vida joven",
     subTitle: "(alcanzando un joven más)",
     description:
       "Trabajamos para alcanzar a la juventud y guiarlos en su relación personal con Cristo.",
-    img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fvida-joven%2Fvida-joven.jpeg?alt=media&token=4d4d1ca3-5f2b-41a4-9e6d-48a5d37a1db0",
+    descAmplia:
+      "El ministerio Vida Joven se dedica a impactar las vidas de los jóvenes, creando un espacio donde puedan crecer en su fe, desarrollar valores sólidos y enfrentar los desafíos de la vida con la guía de Cristo. A través de actividades dinámicas, discipulados y eventos diseñados para conectar con ellos, buscamos fomentar una relación personal con Jesús. Nuestro enfoque no solo es espiritual, sino también social y emocional, proveyendo apoyo integral para construir una generación que glorifique a Dios en sus decisiones y estilos de vida.",
+
+    img: "/assets/vida-joven/vida-joven.webp",
     pageLink: "/vida-joven",
+    carouselImages: [
+    "/assets/vida-joven/vida-joven.webp",
+    "/assets/vida-joven/vida-joven-2.webp",
+    "/assets/vida-joven/vida-joven-3.webp",
+    "/assets/vida-joven/vida-joven-4.webp",
+    ],
   },
 
   {
@@ -237,6 +250,14 @@ export const ministries = [
       "Nos dedicamos a la oración intercesora y al combate espiritual por la iglesia y la comunidad.",
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     pageLink: "/oracion-guerra-espiritual",
+  },
+  {
+    name: "El buen samaritano",
+    subTitle: "(ayuda a los necesitados)",
+    description:
+      "Nos dedicamos a la oración intercesora y al combate espiritual por la iglesia y la comunidad.",
+    img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pageLink: "/el-buen-samaritano",
   },
 ];
 
