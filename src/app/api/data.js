@@ -229,21 +229,32 @@ export const ministries = [
     img: "/assets/vida-joven/vida-joven.webp",
     pageLink: "/vida-joven",
     carouselImages: [
-    "/assets/vida-joven/vida-joven.webp",
-    "/assets/vida-joven/vida-joven-2.webp",
-    "/assets/vida-joven/vida-joven-3.webp",
-    "/assets/vida-joven/vida-joven-4.webp",
+      "/assets/vida-joven/vida-joven.webp",
+      "/assets/vida-joven/vida-joven-2.webp",
+      "/assets/vida-joven/vida-joven-3.webp",
+      "/assets/vida-joven/vida-joven-4.webp",
     ],
   },
-
+  //"Llevando luz"
   {
     name: "Llevando luz",
     subTitle: "(ayuda a los débiles visuales)",
     description:
       "Ministerio dedicado a apoyar a las personas con discapacidad visual, proveyendo recursos y amor.",
-    img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fluz.jpeg?alt=media&token=5d3c8e84-a52b-4414-8445-3ec96b901587",
+    descAmplia:
+      "Llevando Luz es un ministerio que brinda apoyo y recursos a las personas con discapacidad visual, promoviendo la inclusión y el amor de Cristo en la comunidad. A través de actividades, talleres y eventos, buscamos empoderar a quienes enfrentan esta condición, ofreciendo herramientas y acompañamiento para su bienestar y desarrollo integral. Nuestro enfoque es demostrar el amor de Dios a través de acciones concretas, creando un ambiente de aceptación y apoyo mutuo.",
+    img: "/assets/llevando-luz/llevando-luz.webp",
     pageLink: "/llevando-luz",
+    carouselImages: [
+      "/assets/llevando-luz/llevando-luz.webp",
+      "/assets/llevando-luz/llevando-luz-1.webp",
+      "/assets/llevando-luz/llevando-luz-2.webp",
+      "/assets/llevando-luz/llevando-luz-3.webp",
+      "/assets/llevando-luz/llevando-luz-4.webp",
+      "/assets/llevando-luz/llevando-luz-5.webp",
+    ],
   },
+  // "Oración y guerra espiritual FALTAN FOTOS""
   {
     name: "Oración y guerra espiritual",
     description:
@@ -251,6 +262,7 @@ export const ministries = [
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     pageLink: "/oracion-guerra-espiritual",
   },
+  // "El buen samaritano WORKING HERE"
   {
     name: "El buen samaritano",
     subTitle: "(ayuda a los necesitados)",
