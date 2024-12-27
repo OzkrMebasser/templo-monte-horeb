@@ -64,15 +64,18 @@ export const ministries = [
      y acogedor donde los niños puedan desarrollar su relación con Cristo, explorar su fe y aprender
      a aplicar los valores bíblicos en su vida diaria. Además, promovemos el compañerismo, la obediencia
      y el respeto, equipándolos para crecer como futuros líderes en el cuerpo de Cristo y en sus comunidades.`,
-    img: "/assets/castillo-del-rey/castillo-del-rey.webp",
+    img: "/assets/castillo-del-rey/castillo-del-rey-7.webp",
     pageLink: "/castillo-del-rey",
     carouselImages: [
+      "/assets/castillo-del-rey/castillo-del-rey-7.webp",
       "/assets/castillo-del-rey/castillo-del-rey.webp",
       "/assets/castillo-del-rey/castillo-del-rey-2.webp",
       "/assets/castillo-del-rey/castillo-del-rey-3.webp",
       "/assets/castillo-del-rey/castillo-del-rey-4.webp",
       "/assets/castillo-del-rey/castillo-del-rey-5.webp",
       "/assets/castillo-del-rey/castillo-del-rey-6.webp",
+      "/assets/castillo-del-rey/castillo-del-rey-8.webp",
+
     ],
   },
   // "Femeniles"
@@ -98,7 +101,7 @@ export const ministries = [
     description:
       "Llevamos el mensaje del evangelio a las personas en nuestra comunidad y más allá.",
     descAmplia: `Evangelismo es un ministerio dedicado a llevar el mensaje transformador del Evangelio a nuestra comunidad y más allá. Con pasión y amor, compartimos las buenas nuevas de salvación en Cristo Jesús a través de actividades como visitas, eventos, y programas especiales diseñados para alcanzar a personas de diferentes contextos. 
-      Nuestro propósito es guiar a otros hacia una relación personal con Dios, cumpliendo la Gran Comisión de hacer discípulos. Nos enfocamos en demostrar el amor de Cristo con acciones prácticas, apoyando a quienes están en necesidad y construyendo relaciones significativas que reflejen la gracia de Dios. Creemos que cada encuentro es una oportunidad para sembrar esperanza y vida eterna.`,
+  Nuestro propósito es guiar a otros hacia una relación personal con Dios, cumpliendo la Gran Comisión de hacer discípulos. Nos enfocamos en demostrar el amor de Cristo con acciones prácticas, apoyando a quienes están en necesidad y construyendo relaciones significativas que reflejen la gracia de Dios.`,
     img: "/assets/evangelismo/evangelismo-5.webp",
     pageLink: "/evangelismo",
     carouselImages: [
@@ -139,7 +142,12 @@ export const ministries = [
     description:
       "Brindamos apoyo espiritual y emocional a quienes lo necesitan, tanto dentro como fuera de la iglesia.",
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    descAmplia: `La Capellanía es un ministerio dedicado a ofrecer apoyo espiritual y emocional a quienes lo necesitan, tanto dentro como fuera de la iglesia. Los capellanes están disponibles para escuchar, orar e interceder por aquellos que atraviesan momentos difíciles.
+     Este ministerio busca ser una fuente de consuelo y esperanza, ya sea en hospitales, hogares o eventos comunitarios, brindando dirección espiritual y apoyo emocional en todo momento. Nuestro objetivo es compartir el amor de Cristo y fortalecer la fe de quienes necesitan una mano amiga.`,
     pageLink: "/capellania",
+    carouselImages: [
+      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    ],
   },
   // "Deborah"
   {
@@ -147,7 +155,8 @@ export const ministries = [
     subTitle: "(madres en clamor)",
     description:
       "Ministerio de intercesión dedicado a madres que oran por sus hijos y familias.",
-    descAmplia: `Este ministerio está dedicado a las madres que sienten el llamado a interceder en oración por sus hijos, familias y comunidades. A través de encuentros regulares, se fomenta un espíritu de fe y apoyo mutuo, clamando a Dios por sabiduría y dirección divina. Creemos en el poder transformador de la oración para traer paz, restauración y esperanza a las familias.`,
+    descAmplia: `El ministerio Deborah está dedicado a las madres que sienten el llamado a interceder por sus hijos, familias y comunidades. A través de encuentros regulares de oración, estas madres se reúnen en un espíritu de fe, fortalecimiento mutuo y apoyo, clamando por sabiduría y dirección divina. Este ministerio cree firmemente en el poder transformador de la oración, que trae restauración, paz y esperanza, no solo a las familias, sino también a las comunidades a las que pertenecen.`,
+
     img: "/assets/deborah/debora-1.webp",
     pageLink: "/deborah",
     carouselImages: [
@@ -184,13 +193,10 @@ export const ministries = [
     subTitle: "(Centro Evangélico de Formación Familiar)",
     description:
       "Formamos familias sólidas en Cristo a través de la enseñanza bíblica, el discipulado y una vida centrada en los valores cristianos.",
-    // img: "https://firebasestorage.googleapis.com/v0/b/templo-monte-horeb.appspot.com/o/photos%2Fministerios%2Fdeemad%2Fdeemad-ministerio.jpeg?alt=media&token=3ebe2b93-4cd3-40bd-a1aa-7d0c19f97162",
+    descAmplia: `En el Centro Evangélico de Formación Familiar (CEFFA), nos enfocamos en fortalecer la fe y el amor por Dios mediante una enseñanza bíblica sólida, el discipulado y el desarrollo integral de las familias. A través de nuestras actividades y programas, promovemos una vida centrada en Cristo, formando hogares sólidos y sanos. Buscamos ser una comunidad que impacta vidas, transformando la estructura familiar con los valores cristianos y edificando relaciones duraderas basadas en la palabra de Dios.`,
     img: "/assets/ceffa/ceffa.webp",
     pageLink: "/ceffa",
-    descAmplia: `En el Centro Evangélico de Formación Familiar (CEFFA), fortalecemos nuestra fe y amor
-     por Dios mediante la enseñanza bíblica, el discipulado y la formación integral de familias, 
-     fomentando una vida centrada en Cristo. A través de nuestra comunidad, promovemos valores cristianos
-      que impactan vidas y edifican hogares sólidos en la palabra de Dios.`,
+
     carouselImages: [
       "/assets/ceffa/ceffa.webp",
       "/assets/ceffa/ceffa-2.webp",
@@ -259,17 +265,30 @@ export const ministries = [
     name: "Oración y guerra espiritual",
     description:
       "Nos dedicamos a la oración intercesora y al combate espiritual por la iglesia y la comunidad.",
+    descAmplia: `El ministerio de Oración y Guerra Espiritual se enfoca en la intercesión y el combate espiritual por la iglesia y la comunidad. A través de la oración intensa y la lucha espiritual, buscamos traer la intervención de Dios en las situaciones que afectan a las personas, la iglesia y la sociedad en general.
+      Nos comprometemos a interceder por aquellos que necesitan fuerzas en momentos de adversidad, y a enfrentar las fuerzas espirituales oscuras que buscan desestabilizar la paz y la prosperidad. Creemos en el poder transformador de la oración y en su capacidad para traer sanidad, liberación y restauración.`,
+
     img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    pageLink: "/oracion-guerra-espiritual",
+    pageLink: "/oracion-y-guerra-espiritual",
+    carouselImages: [
+      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    ],
   },
   // "El buen samaritano WORKING HERE"
   {
     name: "El buen samaritano",
     subTitle: "(ayuda a los necesitados)",
     description:
-      "Nos dedicamos a la oración intercesora y al combate espiritual por la iglesia y la comunidad.",
-    img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "Ayudamos a quienes más lo necesitan, siguiendo el ejemplo de Jesús como el Buen Samaritano.",
+
+    descAmplia: `El ministerio "El Buen Samaritano" se dedica a llevar la ayuda a los necesitados en nuestra comunidad. Siguiendo el ejemplo de la parábola de Jesús, buscamos tender la mano a aquellos que atraviesan situaciones difíciles, ofreciendo apoyo material, emocional y espiritual. A través de este ministerio, buscamos ser una luz de esperanza en medio de la oscuridad, mostrando el amor de Cristo a través de nuestras acciones, y colaborando con otros ministerios y organizaciones para brindar asistencia a quienes más lo necesitan.`,
+    img: "/assets/el-buen-samaritano/el-buen-samaritano.webp",
     pageLink: "/el-buen-samaritano",
+    carouselImages: [
+      "/assets/el-buen-samaritano/el-buen-samaritano.webp",
+      "/assets/el-buen-samaritano/el-buen-samaritano-2.webp",
+      "/assets/el-buen-samaritano/el-buen-samaritano-3.webp",
+    ],
   },
 ];
 
@@ -333,4 +352,18 @@ export const footerInfo = [
   },
 ];
 
+export const services = [
+  {
+    day: "Domingo",
+    events: [{ time: "9:00 AM", name: "Escuela Dominical" }],
+  },
+  {
+    day: "Martes",
+    events: [{ time: "8:00 PM", name: "Culto Regular" }],
+  },
+  {
+    day: "Viernes",
+    events: [{ time: "8:00 PM", name: "Culto Regular" }],
+  },
+];
 export const nuestrasHistoria = [];

@@ -1,6 +1,4 @@
 import AboutPastors from "../components/AboutPastors";
-import CarruselNosotros from "../components/Carruseles/CarruselNosotros";
-// import CarruselMinisterios from "../components/CarruselMinisterios/CarruselMinisterios";
 import Title from "../components/Title";
 
 const page = () => {
@@ -10,7 +8,7 @@ const page = () => {
         <Title title={"Nuestros Pastores"} />
       </div>
       <AboutPastors />
-      <section className="h-auto px-8 lg:px-16 bg-[#ffffff9d]">
+      <section className="h-auto px-4 py-4 lg:px-16 bg-[#ffffff]">
         <Title title={"BIOGRAFÍA DE NUESTRA IGLESIA"} />
         <div>
           <p className="mb-5 font-semibold text-lg text-justify text-black">
@@ -65,13 +63,11 @@ const page = () => {
             En estos momentos estamos por celebrar los 10 años de fundada la
             obra y 6 años como iglesia organizada de las Asambleas de Dios en
             Cuba. Contamos con 120 hermanos y alrededor de 20 niños, por lo que
-            podemos decir: <strong>"Ebenezer, hasta aquí nos ayudó el Señor." </strong>
+            podemos decir:{" "}
+            <strong>"Ebenezer, hasta aquí nos ayudó el Señor." </strong>
           </p>
         </div>
       </section>
-
-      <CarruselNosotros/>
-
     </>
   );
 };

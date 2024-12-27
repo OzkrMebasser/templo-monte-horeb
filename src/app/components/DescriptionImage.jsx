@@ -46,7 +46,7 @@ const DescriptionImage = ({
           >
             {title}
           </h2>
-          <div className="lg:mt-4 bg-transparent lg:py-8"  data-aos="fade-up" data-aos-delay="100">
+          <div className="lg:mt-2 bg-transparent lg:"  data-aos="fade-up" data-aos-delay="100">
             {/* Display top subtitle if provided */}
             {subTitleTop && (
               <p className={`${subTitleTopTextColor} mb-1 italic text-lg font-semibold`}>
@@ -66,14 +66,7 @@ const DescriptionImage = ({
                     <span>{subTitle2}</span>
                   </>
                 )}
-                {/* {servicesDays && (
-                  <>
-                    <br />
-                    <span className="text-lg font-bold">
-                      <strong>{servicesDays}</strong>
-                    </span>
-                  </>
-                )} */}
+              
               </p>
             )}
             <p className={subTitleTextColor}>{dayAndTime}</p>

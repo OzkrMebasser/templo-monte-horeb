@@ -38,11 +38,8 @@ const Footer = () => {
             {ministriesGroup1.map((name, index) => (
               <li key={index} className="py-1">
                 <Link
-                  href={
-                    linksGroup1[index].startsWith("ministerios")
-                      ? linksGroup1[index]
-                      : `ministerios${linksGroup1[index]}`
-                  }
+                href={`/ministerios/${linksGroup1[index]}` }
+               
                 >
                   <span className="text-[#f8f8f8] hover:text-black transition-colors duration-300 [text-shadow:_0_1px_3px_rgb(0_0_0_/_60%)] font-display text-sm leading-tight">
                     {name}
@@ -62,11 +59,12 @@ const Footer = () => {
             {ministriesGroup2.map((name, index) => (
               <li key={index} className="py-1">
                 <Link
-                  href={
-                    linksGroup2[index].startsWith("ministerios")
-                      ? linksGroup2[index]
-                      : `ministerios${linksGroup2[index]}`
-                  }
+                href={`/ministerios/${linksGroup2[index]}`}
+                  // href={
+                  //   linksGroup2[index].startsWith("ministerios")
+                  //     ? linksGroup2[index]
+                  //     : `ministerios${linksGroup2[index]}`
+                  // }
                 >
                   <span className="text-[#f8f8f8] hover:text-black transition-colors duration-300 [text-shadow:_0_1px_3px_rgb(0_0_0_/_60%)] font-display text-sm leading-tight">
                     {name}

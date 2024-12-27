@@ -11,3 +11,4 @@ const Titles2 = ({ title }) => {
 };
 
 export default Titles2;
+     
