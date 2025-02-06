@@ -268,10 +268,15 @@ export const ministries = [
     descAmplia: `El ministerio de Oración y Guerra Espiritual se enfoca en la intercesión y el combate espiritual por la iglesia y la comunidad. A través de la oración intensa y la lucha espiritual, buscamos traer la intervención de Dios en las situaciones que afectan a las personas, la iglesia y la sociedad en general.
       Nos comprometemos a interceder por aquellos que necesitan fuerzas en momentos de adversidad, y a enfrentar las fuerzas espirituales oscuras que buscan desestabilizar la paz y la prosperidad. Creemos en el poder transformador de la oración y en su capacidad para traer sanidad, liberación y restauración.`,
 
-    img: "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    pageLink: "/oracion-y-guerra-espiritual",
+    img: "/assets/oracion-guerra-espiritual/oracion-1.webp",
+    pageLink: "oracion-y-guerra-espiritual",
     carouselImages: [
-      "https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+     "/assets/oracion-guerra-espiritual/oracion-1.webp",
+     "/assets/oracion-guerra-espiritual/oracion-2.webp",
+     "/assets/oracion-guerra-espiritual/oracion-3.webp",
+     "/assets/oracion-guerra-espiritual/oracion-4.webp",
+     "/assets/oracion-guerra-espiritual/oracion-5.webp",
+   
     ],
   },
   // "El buen samaritano WORKING HERE"
